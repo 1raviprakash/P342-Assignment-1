@@ -8,9 +8,9 @@ int main()
     // declaring variable
     double result = 1;
     //using for loop
-    for(int i=1;i<=15;i++)
+    for(int a=1;a<=15;a++)
     {
-        result *= i; 
+        result *= a; 
     
     }
     cout << result << endl;
