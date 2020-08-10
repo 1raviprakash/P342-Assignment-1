@@ -8,11 +8,11 @@ int main()
     // declaring variable
     double count = 0;
     //using for loop
-    for(int i=1;((double) 1/i) > 0.001;i++)
+    for(int a=1;((double) 1/a) > 0.001;a++)
     {
-        // cout << i ; 
-        count +=((double)1/i)  ; 
-        // cout << endl;
+        
+        count +=((double)1/a)  ; 
+       
     }
     cout << count << endl;
 
