@@ -9,7 +9,7 @@ int main()
     int result = 0;
     for(int a=0;a<=100;a++)
     {
-        result += i; 
+        result += a; 
     
     }
     cout << result << endl ;
