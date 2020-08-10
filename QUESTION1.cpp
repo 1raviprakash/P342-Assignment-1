@@ -6,11 +6,14 @@ using namespace std;
 int main()
 {
     // declaring variable
-    int result = 0;
-    for(int a=0;a<=100;a++)
+    int result= 0;
+    int n = 0;
+    cout<<"Enter the number till which you want to add";
+    cin>>n;
+    for (int a=0;a<=n;a++)
     {
-        result += a; 
-    
+        result=result+ a;
+
     }
-    cout << result << endl ;
+    cout << result << endl;
 }
